@@ -154,6 +154,7 @@ HTML Attributes -> Attributes are used to add more information to the tags-->
 
 
             </main>
+                    <!--Footer-->
                     
             <footer>Contact me at sout.anujpal@gmail.com</footer>
             
@@ -170,12 +171,119 @@ HTML Attributes -> Attributes are used to add more information to the tags-->
                                     <P>Hello World</P>
                                 </div>
                                 <div><p>Hello</p>
-                                <p>namasti</p>
-                            <P>Hi!</P></div>
-                            <!--<span>: A tag that can be used to style text -->
+                                     <p>namasti</p>
+                                     <P>Hi!</P>
+                                    </div>
+                            <!--<span>: A tag that can be used to style text 
+                                Span is also container used for other html element
+                                    Inline Element (takes width as per size)-->
+                              <span>Element</span>      
 
+ <!------------------------------------------------------------------------------------------------------------------------------------------------------>                       
+
+                <!--List in html -->
+                    
+                  <!-- Lists are used to represent real life list data
+                   Unordered                    Ordered 
+                   <ul>                      <ol>
+                     <li>Apple</li>             <li>Apple</li>
+                    <li>Mango</li>               <li>Mango</li>
+                    </ul>                       </ol>   -->    
+
+                        
+                    <main>
+                        <!--Unordered--> 
+                        <p>Unordered</p>                 
+                        <ul>
+                            <li>Apple</li>
+                            <ul>
+                                <li>
+                                    color : red
+                                </li>
+                            </ul>
+                            <li>Mango</li>
+                        </ul>
+
+                        <!-- Ordered -->
+                         <p>Ordered</p>
+                         <ol>
+                            <li>Apple</li>
+                            <li>Mango</li>
+                         </ol>
+                    </main>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------>                    
+
+                    <!--Table in html--> 
+                    <!--table are used to represent real life table data-->
+                     
+                        <table>
+                            <thead>   <!-- <thead : to wrap table head-->
+                            <caption>     <!--Caption in html : used to caption in table -->
+                                Student data
+                            </caption>
+                            <th colspan="2">  <!-- The colspan attribute defines the number of columns a table cell should span.-->
+                                IMFORMATION</th>
+
+                            <tr>             <!-- <tr> : used to display table row -->
+                                <th>Name</th>    <!--<th> : used to display table header-->
+                                <th>Roll no.</th>
+                            </tr>
+                        </thead>
+                        <tbody>   <!-- tbody : to wrap table body-->
+                            <tr>
+                                <td>Anuj</td>      <!--<td> : used to display table data-->
+                                <td>2302129530011</td>
+                            </tr>
+                        </tbody>
+                        </table>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------>                       
+
+                <!-- Form in html : froms are used to collect data from user -->
+                 <!-- eg- sign up/login/help requests/contact me
+                  
+                 <form> from conrtent </from>-->
                 
-                                    
+                <!-- Action in Form : Action attribute is uesd to define what action needs to be performed when is submitted-->
+                 
+                <form action="/action.php">
+                    <!--Form elements -->
+                <input type="text" placeholder="Username">
+            <br>
+                <input type="password" placeholder="Password">
+                <br>
+                <br>
+                    <!--Label -->
+                <label for="101"></label>
+                <input type="radio" value="class XI" name="101">Class XI
+                <br>
+                <label for="102"></label>
+                <input type="radio" value="Class XII" name="102">Class XII
+
+                </form>
+    
+    <!--Class & Id -->
+    <div id="id1" class="group 1"></div>
+    <div id="id2" class="group 1"></div>
+    <!-- Checkbox -->
+     <label for="maths">
+        <input type="checkbox" value="maths " name="subject" id="101">Maths
+     </label>
+     <label for="physics">
+        <input type="checkbox" value="physics " name="subject" id="102">physics
+     </label>
+     <label for="chemistry">
+        <input type="checkbox" value="chemistry " name="subject" id="103">chemistry
+     </label>
+<br>
+     <textarea name="feedback" id="101" placeholder="type something here"> feedback</textarea>
+     
+
+
+
+
+                    
 
 
 
