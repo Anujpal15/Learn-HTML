@@ -31,15 +31,17 @@ HTML Attributes -> Attributes are used to add more information to the tags-->
     
 <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <!-- Heading tags -->
-    <!-- used to display heading in html
-            h1,h2,h3,h4,h5,h6
-            h1 is most important 
-            h6 is least important 
-            also h1's size is bigger then h2 and other -->
 
-    <h1>Heading one</h1>
+    <!-- used to display heading in html    (h1,h2,h3,h4,h5,h6) -->
+    <h1>Heading one</h1> h1 is most important 
     <h2>Heading two</h2>
     <h3>Heading three</h3>
+    <h4>Heading four</h4>
+    <h5>Heading five</h5>
+    <h6>Heading six</h6>  h6 is least important
+    
+                <!--also h1's size is bigger then h2 and other -->
+
 
 <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
@@ -70,9 +72,6 @@ HTML Attributes -> Attributes are used to add more information to the tags-->
 
     <!--Bold, Italic & underline Tags
     used to highlight text in your page  -->
-    <!-- <b>Bold</b> 
-         <i>Italic </i>
-         <u>Underline <\u>-->
             <b>Bold</b>
             <i>Italic</i>
             <u>Underline</u>
@@ -138,12 +137,12 @@ HTML Attributes -> Attributes are used to add more information to the tags-->
                         <section>education | NPCI | School</section>
                         <section>Game | Fun | Ms Intern</section>
 
-            <!--Article Tag : For am article on your page 
+            <!--Article Tag : For an article on your page 
             <--article>-->
                             <article>My story : </article>
                             
             <!--Aside Tag : For content aside main content(ads)
-            <--aside>-->
+            <--aside-->
                             <aside>this is an ad</aside> 
 
             <!--Revisiting Anchor Tag-->
@@ -262,6 +261,11 @@ HTML Attributes -> Attributes are used to add more information to the tags-->
                 <label for="102"></label>
                 <input type="radio" value="Class XII" name="102">Class XII
 
+                <br>
+
+                <input type="Submit" value="Submit">
+
+
                 </form>
     
     <!--Class & Id -->
@@ -279,11 +283,33 @@ HTML Attributes -> Attributes are used to add more information to the tags-->
      </label>
 <br>
      <textarea name="feedback" id="101" placeholder="type something here"> feedback</textarea>
+
+     <br>
      
+<!-- --------------------------------------------------------------------------------------------------------------------------->
+<!--  Select tag -->
+  <select name="city" id="city">
+    <option value="Delhi"> Delhi</option>
+   <option value="Meerut">Meerut</option>
+   <option value="Banglore">Banglore</option>
+  </select>
+  <br>
+<!-- --------------------------------------------------------------------------------------------------------------------------->
 
+  <!-- iframe tag -> 
+     website inside website 
+  we use this for play any video on are own website from another website video  -->
 
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=HPAK83cWYrGcj3L5" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<!-- --------------------------------------------------------------------------------------------------------------------------->
+<!-- video tag -->
+ <!-- for add video in website -->
 
+<video width="560" height="315" src="/video.mov" controls>This video for HTML </video>
                     
 
 
